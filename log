@@ -120,3 +120,9 @@ treemap.c:177:5: error: expected ',' or ';' before 'tree'
      tree->current = minNode;
      ^~~~
 32ccb9a
+Sun, May  4, 2025  7:03:38 PM: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  20|2
+total_score: 45/70
+1b4abda
