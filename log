@@ -93,3 +93,20 @@ Sun, May  4, 2025  7:00:29 PM:
  tests:  18|3
 total_score: 40/70
 df1c63f
+Sun, May  4, 2025  7:03:18 PM: 
+ treemap.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'firstTreeMap':
+treemap.c:177:5: error: expected ',' or ';' before 'tree'
+     tree->current = minNode
+     ^~~~
+treemap.c:176:15: error: unused variable 'minNode' [-Werror=unused-variable]
+     TreeNode* minNode = minimum(tree->root)
+               ^~~~~~~
+treemap.c:180:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+92658eb
